@@ -1,0 +1,66 @@
+===== part1_array_syntax.Main.txt =====
+COMMAND: java -cp build part1_array_syntax.Main
+INPUT (demo data):
+
+OUTPUT:
+5th element value: 45, length=10
+Variable size: 3
+[1.5, 2.5][Ada, Linus][a, b][true, false]
+1 4 2 
+1 4 2 
+1 4 2 
+Expected demonstration: java.lang.ArrayIndexOutOfBoundsException: Index 1000 out of bounds for length 10
+
+
+===== part2_array_handling.Main.txt =====
+COMMAND: java -cp build part2_array_handling.Main
+INPUT (demo data):
+3
+-1
+2
+3
+5
+2
+
+OUTPUT:
+Length of input array (1-1000): Element 0: Element 1: Element 2: [-1, 2, 3]
+Sum: 4
+Length of random array (1-1000): [73, 23, 29, 83, 50]
+Maximum: 83
+Search for an integer in the input array: Index (-1 means absent): 1
+
+
+===== part3_contacts.Main.txt =====
+COMMAND: java -cp build part3_contacts.Main
+INPUT (demo data):
+7
+2
+3
+Ada
+4
+1
+Demo Grace
+5
+2
+2
+6
+2
+0
+
+OUTPUT:
+1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: 1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: 1. Demo Ada, ada@example.test
+2. Demo Linus, linus@example.test
+1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: Search phrase (case-sensitive): 1. Demo Ada, ada@example.test
+1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: Contact number: Current: Demo Ada, ada@example.test
+New value: 1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: Contact number: 1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: 1. Demo Grace
+1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: 1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: No matching contacts.
+1 Add | 2 Show | 3 Search | 4 Edit | 5 Delete | 6 Delete all | 7 Samples | 0 Exit
+Choose: 
